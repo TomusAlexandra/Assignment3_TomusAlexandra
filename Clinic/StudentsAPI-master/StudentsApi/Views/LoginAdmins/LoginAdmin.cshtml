@@ -1,0 +1,42 @@
+﻿@model StudentsApi.ModelsUse.LoginAdmin
+
+@{
+    Layout = null;
+}
+
+<h1 align="left">Admin</h1>
+
+<html>
+
+<body background="http://www.atlantic-clinic.es/wp-content/uploads/2015/06/banner-atlantic-clinic-nueva-andalucia-marbella.jpg">
+
+    <div align="left"><img src="http://www.manjotsoftwares.com/bgs/images/login_icon.png" height="100" width="100"></div>
+    <br></br>
+    <div align="left">
+
+        <a href="@Url.Action("Index", "Home", null)">
+            <img src="https://1.bp.blogspot.com/-ZgosbqwBn3U/V0zRkAT2VfI/AAAAAAAAAWU/A9yrPOMajMkactZByI1-pKeti8iB1bpgACK4B/s1600/RiGK49MxT.png" style="vertical-align: sub; width: 100px;">
+            <b>Home</b> <a />
+
+       <br></br>
+       <a href="@Url.Action("Create", "User", null)">
+             <img src="http://a.dryicons.com/images/icon_sets/coquette_part_6_icons_set/png/128x128/add_male_user.png" style="vertical-align: sub; width: 100px;">
+             <b>Add User</b> <a />
+
+        <br></br>
+        <a href="@Url.Action("Edit/1", "User", null)">
+              <img src="http://www.msqq.com/d/file/icon/2014-04-01/9d54fc31eb5034b26b4adb39895ee40f.png" style="vertical-align: sub; width: 100px;">
+              <b>Edit User</b> <a />
+
+        <br></br>
+        <a href="@Url.Action("Delete/1", "User", null)">
+              <img src="http://demo.sc.chinaz.com/Files/pic/icons/6259/d19.png" style="vertical-align: sub; width: 100px;">
+              <b>Delete User</b> <a />
+
+
+</div>
+<br></br>
+       
+
+</body>
+</html> 
